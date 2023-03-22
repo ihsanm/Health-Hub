@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Bodyparts from './components/bodyparts';
-import MuscleGroupImage from './components/MuscleGroupImage.tsx';
+
 
 function App() {
   return (
