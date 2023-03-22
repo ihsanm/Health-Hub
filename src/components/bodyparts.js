@@ -9,7 +9,7 @@ function Bodyparts() {
       <div>
         <p>hello world</p>
         
-        
+      
         <MuscleGroupImage muscleGroups={["chest","biceps"]}/>
       </div>
     );
