@@ -1,16 +1,21 @@
 import React from "react";
-import MuscleGroupImage from "./MuscleGroupImage.tsx";
+
 function Bodyparts() {
 
-    // window.location.reload();
-
-
     return (
-      <div>
-        <p>hello world</p>
-        
-        
-        <MuscleGroupImage muscleGroups={["chest","biceps"]}/>
+      <div className="muscle-tabs">
+
+        <ul className="nav">
+        <li>Biceps</li>
+        <li>Triceps</li>
+        <li>Chest</li>
+        <li>Back</li>
+        <li>Hamstrings</li>
+      </ul>
+
+      <div className="outlet">
+
+      </div>
       </div>
     );
   }
