@@ -45,8 +45,8 @@ function Nutrition() {
               <ul>
                 <li>Calories: {nutrition.calories}</li>
                 <li>Protein: {nutrition.protein_g}g</li>
-                <li>Carbohydrates: {nutrition.carbohydrates_g}g</li>
-                <li>Fat: {nutrition.fat_g}g</li>
+                <li>carbohydrates: {nutrition.carbohydrates_total_g}g</li>
+                <li>Fat: {nutrition.fat_total_g}g</li>
                 <li>Sugar: {nutrition.sugar_g}g</li>
                 <li>Sodium: {nutrition.sodium_mg}mg</li>
                 <li>Fiber: {nutrition.fiber_g}g</li>
