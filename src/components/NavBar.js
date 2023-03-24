@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo-no-background.png"
 
 
-function ColorSchemesExample() {
+function Navbar() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -22,4 +22,4 @@ function ColorSchemesExample() {
   );
 }
 
-export default ColorSchemesExample;
+export default Navbar;
