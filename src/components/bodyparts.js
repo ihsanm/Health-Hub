@@ -1,33 +1,45 @@
-import React, { useState } from "react";
+import React from "react";
 import Back from "./bodyparts/back";
 import Biceps from "./bodyparts/biceps";
+import Triceps from "./bodyparts/triceps";
+import Chest from "./bodyparts/chest";
+import Legs from "./bodyparts/legs";
+import {Tab, TabList, Tabs, TabPanel} from "react-tabs"
 
 function Bodyparts() {
 
-    const [activeTab, setActiveTab] = useState("tab1")
 
-    
-  const handleTab1 = () => {
-    
-    setActiveTab("tab1");
-  };
-  const handleTab2 = () => {
-
-    setActiveTab("tab2");
-  };
 
     return (
-      <div className="muscle-tabs">
+      <Tabs className="muscle-tabs">
+      <TabList className="tabs">
+        <Tab className="tabs-item">Biceps</Tab>
+        <Tab className="tabs-item">Triceps</Tab>
+        <Tab className="tabs-item">Back</Tab>
+        <Tab className="tabs-item">Chest</Tab>
+        <Tab className="tabs-item">Legs</Tab>
+      </TabList>
+  
+      <TabPanel>
+        <Biceps />
+      </TabPanel>
 
-        <ul className="nav">
-        <li className={activeTab === "tab1" ? "active" : ""} onClick={handleTab1}>Biceps</li>
-        <li className={activeTab === "tab2" ? "active" : ""} onClick={handleTab2}>Back</li>
-      </ul>
+      <TabPanel>
+        <Triceps />
+      </TabPanel>
 
-      <div className="outlet">
-      {activeTab === "tab1" ? <Biceps /> : <Back />}
-      </div>
-      </div>
+      <TabPanel>
+        <Back />
+      </TabPanel>
+
+      <TabPanel>
+        <Chest />
+      </TabPanel>
+
+      <TabPanel>
+        <Legs />
+      </TabPanel>
+    </Tabs>
     );
   }
   

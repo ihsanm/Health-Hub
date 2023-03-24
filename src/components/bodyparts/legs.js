@@ -1,12 +1,12 @@
 import React from "react";
 import MuscleGroupImage from "../MuscleGroupImage.tsx";
 
-function Triceps(){
+function Legs(){
     return(
         <div className="muscleimg">
-            <MuscleGroupImage muscleGroups={["triceps"]} />
+            <MuscleGroupImage muscleGroups={["legs"]} />
         </div>
     )
 }
 
-export default Triceps
+export default Legs
