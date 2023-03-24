@@ -1,3 +1,12 @@
+/* APP AREA STYLING */
+.app-area{
+  background-image: url(./assets/gymbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* END OF APP AREA STYLING */
+
 /* NAV BAR STYLING */
 
 .logo-img {

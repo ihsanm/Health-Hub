@@ -9,7 +9,7 @@ function Navibar() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home"><img src={logo} className="logo-img"/></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={logo} alt="logo" className="logo-img"/></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>

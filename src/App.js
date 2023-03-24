@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <div className='app-area'>
       <NavBar/>
     <div>
       <Bodyparts />
