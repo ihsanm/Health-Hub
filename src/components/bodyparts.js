@@ -8,7 +8,7 @@ import {Tab, TabList, Tabs, TabPanel} from "react-tabs"
 
 function Bodyparts() {
 
-
+    
 
     return (
       <Tabs className="muscle-tabs">

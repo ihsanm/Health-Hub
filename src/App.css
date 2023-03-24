@@ -1,3 +1,15 @@
+/* NAV BAR STYLING */
+
+.logo-img {
+  height: 50px;
+  width:70px
+}
+
+
+/* END OF NAVBAR STYLING */
+
+/* BODY PARTS STYLING */
+
 .muscle-tabs{
   width: 80%;
   height: auto;
@@ -45,3 +57,4 @@
   margin-left: auto;
   border-radius: 50%;
 }
+/* END OF BODY PARTS STYLING */
