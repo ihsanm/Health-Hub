@@ -67,3 +67,45 @@
   border-radius: 50%;
 }
 /* END OF BODY PARTS STYLING */
+
+/* FOOD STYLING */
+.food{
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  background: #373a3a;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+}
+
+.food-form{
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.food-text{
+  text-align: center;
+}
+
+.food-card-text{
+color: #373a3a;
+text-transform: uppercase;
+
+}
+
+.food-card{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* END OF FOOD STYLING */

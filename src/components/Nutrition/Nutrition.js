@@ -40,11 +40,13 @@ function Nutrition() {
   };
 
   return (
-  <div className="has-bg-img">
+  <div className="food">
     <Container>
       <Row>
-      <Col>
-      <form onSubmit={handleClick}>
+      
+      <h2 className='food-text'>What are you eating?</h2>
+      <h6 className='food-text'>Search and let's find out!</h6>
+      <form className='food-form' onSubmit={handleClick}>
         <input
           type="text"
           placeholder="Enter a food item"
@@ -53,15 +55,15 @@ function Nutrition() {
         />
         <button type="submit">Search</button>
       </form>
-      </Col>
+      <h6 className='food-text'>The following is calculated from a serving of 100g</h6>
       <Col>
       {nutritionData.length > 0 && (
         
-        <div>
+        <div className='food-card'>
           {nutritionData.map((nutrition) => (
 
             <Card key={nutrition.name} border="dark" style={{ width: '18rem' }}>
-              <Card.Header>{nutrition.name}</Card.Header>
+              <Card.Header><span className='food-card-text'>{nutrition.name}</span></Card.Header>
                 <ListGroup variant="flush">
                   <ListGroup.Item>Calories: {nutrition.calories}</ListGroup.Item>
                   <ListGroup.Item>Protein: {nutrition.protein_g}g</ListGroup.Item>
@@ -77,7 +79,7 @@ function Nutrition() {
       )}
       </Col>
       </Row>
-      <img className="bg-img" src="./assets/mediterranean.jpg" alt="food" />
+      {/* <img className="bg-img" src="./assets/mediterranean.jpg" alt="food" /> */}
     </Container>
   </div>
 
