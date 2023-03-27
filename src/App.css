@@ -108,4 +108,19 @@ text-transform: uppercase;
   width: auto;
 }
 
+.food-input{
+  height: 30px;
+}
+
+.button {
+  height: 30px;
+  width: 60px;
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 /* END OF FOOD STYLING */

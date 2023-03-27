@@ -48,12 +48,13 @@ function Nutrition() {
       <h6 className='food-text'>Search and let's find out!</h6>
       <form className='food-form' onSubmit={handleClick}>
         <input
+          className='food-input'
           type="text"
           placeholder="Enter a food item"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <button type="submit">Search</button>
+        <button className='button' type="submit">Search</button>
       </form>
       <h6 className='food-text'>The following is calculated from a serving of 100g</h6>
       <Col>
