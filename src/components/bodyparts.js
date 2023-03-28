@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
-import Back from "./bodyparts/back";
-import Biceps from "./bodyparts/biceps";
-import Triceps from "./bodyparts/triceps";
-import Chest from "./bodyparts/chest";
-import Legs from "./bodyparts/legs";
+import Back from "./bodyparts/Back";
+import Biceps from "./bodyparts/Biceps";
+import Triceps from "./bodyparts/Triceps";
+import Chest from "./bodyparts/Chest";
+import Legs from "./bodyparts/Legs";
 import {Tab, TabList, Tabs, TabPanel} from "react-tabs"
 
 function Bodyparts() {
 
   const [muscle, setMuscle] = useState("biceps")
+  const [muscleData, setMuscleData] = useState([])
   useEffect(()=> {
 const options = {
     method: 'GET',
@@ -20,7 +21,7 @@ const options = {
   
   fetch('https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle='+ muscle, options)
     .then(response => response.json())
-    .then(response => console.log(response))
+    .then(response => setMuscleData(response))
     .catch(err => console.error(err));
   } ,[muscle])
 
@@ -38,7 +39,7 @@ const options = {
       </TabList>
   
       <TabPanel>
-        <Biceps />
+        <Biceps data={muscleData} />
       </TabPanel>
 
       <TabPanel>

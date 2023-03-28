@@ -60,11 +60,18 @@
 .muscleimg{
   height: 350px;
   width: 350px;
-  display: flex;
+  display: block;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
   border-radius: 50%;
+}
+
+.exercise-tabs{
+  font-size: 15px;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
 }
 /* END OF BODY PARTS STYLING */
 
@@ -124,3 +131,25 @@ text-transform: uppercase;
   font-size: 16px;
 }
 /* END OF FOOD STYLING */
+
+/* CALCULATOR STYLING */
+.calculator-area{
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  background: #373a3a;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+
+}
+
+.calc-heading{
+  text-align: center;
+}
+
+/* END OF CALCULATOR STYLING */
