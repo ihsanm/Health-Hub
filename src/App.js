@@ -5,11 +5,10 @@ import BmiCalculator from "./components/BmiCalculator";
 import Navbar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from './components/homePage';
+import CalorieSearchResults from "./components/caloriescaluclator/CalorieCalculator";
+
 import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link
+  BrowserRouter, Routes, Route,Link
 } from 'react-router-dom';
 
 import Nutrition from "./components/Nutrition/Nutrition";
@@ -25,7 +24,7 @@ function App() {
           <Route path='/Bmicalculator' element ={<BmiCalculator />}/>
           <Route path='/bodyparts' element ={<Bodyparts />}/>
           <Route path='/nutrition' element ={<Nutrition />}/>
-  
+          <Route path='/CalorieCalculator' element ={<CalorieSearchResults />}/>
         </Routes>
       </div>
     </BrowserRouter>
