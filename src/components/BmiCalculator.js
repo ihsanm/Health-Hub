@@ -14,8 +14,8 @@ function BmiCalculator() {
   };
 
   return (
-    <div>
-      <h1>BMI Calculator</h1>
+    <div className="calculator-area">
+      <h1 className="calc-heading">BMI Calculator</h1>
       <div>
         <label>Weight (in kg): </label>
         <input type="number" value={weight} onChange={(e) => setWeight(e.target.value)} />

@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
-import Bodyparts from './components/bodyparts';
+import React from "react";
+import "./App.css";
+import Bodyparts from "./components/bodyparts";
 import BmiCalculator from "./components/BmiCalculator";
-import Navbar from './components/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/NavBar";
+import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from './components/homePage';
 import {
   BrowserRouter,
@@ -12,7 +12,7 @@ import {
   Link
 } from 'react-router-dom';
 
-import Nutrition from './components/Nutrition/Nutrition';
+import Nutrition from "./components/Nutrition/Nutrition";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <div className='container mt-2' style={{ marginTop: 40 }}>
         <Routes>
-                 <Route exact path='/home' element ={<HomePage />}/>
+                 <Route exact path='/' element ={<HomePage />}/>
           
           <Route path='/Bmicalculator' element ={<BmiCalculator />}/>
           <Route path='/bodyparts' element ={<Bodyparts />}/>
