@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <div className='container mt-2' style={{ marginTop: 40 }}>
         <Routes>
-                 <Route exact path='/home' element ={<HomePage />}/>
+                 <Route exact path='/' element ={<HomePage />}/>
           
           <Route path='/Bmicalculator' element ={<BmiCalculator />}/>
           <Route path='/bodyparts' element ={<Bodyparts />}/>
