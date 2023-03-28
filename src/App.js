@@ -1,25 +1,25 @@
-import React from 'react';
-import './App.css';
-import Bodyparts from './components/bodyparts';
+import React from "react";
+import "./App.css";
+import Bodyparts from "./components/bodyparts";
 import BmiCalculator from "./components/BmiCalculator";
-import NavBar from './components/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from "./components/NavBar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import Nutrition from './components/Nutrition/Nutrition';
+import Nutrition from "./components/Nutrition/Nutrition";
 
 function App() {
   return (
-    <div className='app-area'>
-      <NavBar/>
-    <div>
-      <Bodyparts />
-    </div>
-    <div>
-      <BmiCalculator />
-    </div>
-    <div>
-      <Nutrition />
-    </div>
+    <div className="app-area">
+      <NavBar />
+      <div>
+        <Bodyparts />
+      </div>
+      <div>
+        <BmiCalculator />
+      </div>
+      <div>
+        <Nutrition />
+      </div>
     </div>
   );
 }
