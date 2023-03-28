@@ -2,25 +2,46 @@ import React from "react";
 import "./App.css";
 import Bodyparts from "./components/bodyparts";
 import BmiCalculator from "./components/BmiCalculator";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import HomePage from './components/homePage';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 
 import Nutrition from "./components/Nutrition/Nutrition";
 
 function App() {
   return (
-    <div className="app-area">
-      <NavBar />
-      <div>
-        <Bodyparts />
+<BrowserRouter>
+      <Navbar />
+      <div className='container mt-2' style={{ marginTop: 40 }}>
+        <Routes>
+                 <Route exact path='/home' element ={<HomePage />}/>
+          
+          <Route path='/Bmicalculator' element ={<BmiCalculator />}/>
+          <Route path='/bodyparts' element ={<Bodyparts />}/>
+          <Route path='/nutrition' element ={<Nutrition />}/>
+  
+        </Routes>
       </div>
-      <div>
-        <BmiCalculator />
-      </div>
-      <div>
-        <Nutrition />
-      </div>
-    </div>
+    </BrowserRouter>
+
+    // <div className='app-area'>
+    //   <NavBar/>
+    // <div>
+    //   <Bodyparts />
+    // </div>
+    // <div>
+    //   <BmiCalculator />
+    // </div>
+    // <div>
+    //   <Nutrition />
+    // </div>
+    // </div>
   );
 }
 
