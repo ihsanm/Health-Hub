@@ -17,9 +17,9 @@ function Navibar () {
           </Navbar.Brand>
           <Nav className='me-auto'>
             <Nav.Link href='/BmiCalculator'>BMI</Nav.Link>
-            <Nav.Link href='/bodyparts'>bodyparts</Nav.Link>
+            <Nav.Link href='/bodyparts'>Body Parts</Nav.Link>
             <Nav.Link href='/Nutrition'>Nutrition</Nav.Link>
-            <Nav.Link href='/CalorieCalculator'>/CalorieCalculator</Nav.Link>
+            <Nav.Link href='/CalorieCalculator'>Calorie Calculator</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
