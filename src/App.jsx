@@ -8,7 +8,7 @@ import Gallery from "./pages/calorie-calculator/Caloriecalulator";
 import NotFound from "./pages/notFound/NotFound";
 import Plans from "./pages/nutrition/Nutrition";
 import Trainers from "./pages/bmicalculator/Bmicalculator";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer";
 
 

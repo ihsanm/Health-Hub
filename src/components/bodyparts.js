@@ -53,19 +53,19 @@ function Bodyparts () {
       </TabPanel>
 
       <TabPanel>
-        <Triceps />
+        <Triceps data={muscleData} />
       </TabPanel>
 
       <TabPanel>
-        <Back />
+        <Back data={muscleData} />
       </TabPanel>
 
       <TabPanel>
-        <Chest />
+        <Chest  data={muscleData} />
       </TabPanel>
 
       <TabPanel>
-        <Legs />
+        <Legs data={muscleData} />
       </TabPanel>
     </Tabs>
   )
