@@ -12,9 +12,9 @@ const Trainers = () => {
 			their overall health and fitness. By understanding their BMI, a person can get an estimate of their body 
 			fat and determine if they are at a healthy weight for their height.
 			</Header>
-
+<div className="fullBMI">
 <BmiCalculator/>
-
+</div>
 		
 		</>
 	);
