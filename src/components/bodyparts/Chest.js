@@ -1,12 +1,12 @@
 import React from "react";
 import MuscleGroupImage from "../MuscleGroupImage.tsx";
 
-function Triceps({ data }) {
+function Chest({ data }) {
   console.log(data);
   return (
     <div>
       <div className="muscleimg">
-        <MuscleGroupImage muscleGroups={["triceps"]} />
+        <MuscleGroupImage muscleGroups={["chest"]} />
       </div>
       <>
         {data.map((e) => {
@@ -22,4 +22,4 @@ function Triceps({ data }) {
   );
 }
 
-export default Triceps;
+export default Chest;
