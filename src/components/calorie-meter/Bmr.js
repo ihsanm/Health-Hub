@@ -177,7 +177,9 @@ class bmr extends Component {
               max='120'
             />
           </div>
-          <button type='button' onClick={() => this.calculationBMR()}>
+          <button type='button' 
+          classname = 'buttonstyle'
+          onClick={() => this.calculationBMR()}>
             CalculateBMR
           </button>
           {resultBMR}
@@ -210,7 +212,9 @@ class bmr extends Component {
                 </option>
               </select>
             </div>
-            <button type='button' onClick={() => this.calculateKCalories()}>
+            <button type='button' 
+            onClick={() => this.calculateKCalories()}
+            classname = 'buttonstyle'>
               Calculate Calories
             </button>
           </div>
