@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Back from './bodyparts/Back'
-import Biceps from './bodyparts/Biceps'
+import Biceps from '../../src/components/bodyparts/Biceps'
 import Triceps from './bodyparts/Triceps'
 import Chest from './bodyparts/Chest'
 import Legs from './bodyparts/Legs'
@@ -61,7 +61,7 @@ function Bodyparts () {
       </TabPanel>
 
       <TabPanel>
-        <Chest  data={muscleData} />
+        <Chest data={muscleData} />
       </TabPanel>
 
       <TabPanel>
