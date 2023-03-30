@@ -33,7 +33,7 @@ export const values = [
     {
         id: 1,
         icon: <CgGym/>,
-        title: "Improved cardiovascular health",
+        title: "Improved cardiovascular-health",
         desc: "Regular exercise helps to strengthen the heart and improve blood circulation, which can lower the risk of heart disease and stroke."
     },
     {
