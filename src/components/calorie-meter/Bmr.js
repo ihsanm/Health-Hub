@@ -27,11 +27,11 @@ class bmr extends Component {
     let weight = this.state.weight
 
     if (
-      age == '' ||
-      gender == '' ||
-      heightinfeet == '' ||
-      heightinInches == '' ||
-      weight == ''
+      age === '' ||
+      gender === '' ||
+      heightinfeet === '' ||
+      heightinInches === '' ||
+      weight === ''
     ) {
       this.setState({ error: 'All fields are required!' })
       return
@@ -39,9 +39,9 @@ class bmr extends Component {
 
     let bmrcalc = ''
     let height = heightinfeet * 30.48 + heightinInches * 2.54
-    if (gender == 2) {
+    if (gender === 2) {
       bmrcalc = 66 + 6.2 * weight + 12.7 * height - 6.76 * age
-    } else if (gender == 1) {
+    } else if (gender === 1) {
       bmrcalc = 655.1 + 4.35 * weight + 4.7 * height - 4.7 * age
     }
 

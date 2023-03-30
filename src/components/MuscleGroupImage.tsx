@@ -25,7 +25,7 @@ export default function MuscleGroupImage(props: MuscleGroupImageProps) {
 
     useEffect(() => {
         fetchImage()
-    }, [])
+    },);
 
     return  <img className="muscleimg" src={image} alt={`${props.muscleGroups.join(",")}`}/>
 }
