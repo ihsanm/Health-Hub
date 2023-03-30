@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import HeaderImage from "../../images/header_bg_4.jpg";
 import Nutrition from "../../components/Nutrition/Nutrition";
 
-const Plans = () => {
+const NurtionCalcu = () => {
 	return (
 		<>
 			<Header title="Nutrition and Diet" image={HeaderImage}>
@@ -20,4 +20,4 @@ const Plans = () => {
 	);
 };
 
-export default Plans;
+export default NurtionCalcu;

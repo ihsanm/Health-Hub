@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 // import CalorieSearchResults from "../../components/CalorieCalculator/CalorieCalculator";
 import CalorieMeter from '../../components/calorie-meter/Bmr'
 
-const Gallery = () => {
+const CalorieCalu = () => {
   return (
 <>
 
@@ -34,5 +34,5 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default CalorieCalu;
 

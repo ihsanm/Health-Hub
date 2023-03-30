@@ -48,35 +48,41 @@ class bmr extends Component {
     this.setState({ error: '' })
     this.setState({ bmr: bmrcalc })
 
-    let activitySug = ';'
+    let activityCalorie = ';'
     if (bmrcalc <= 1926) {
-      activitySug = 'Suggestion: little or no exercise.'
+      activityCalorie
+ = 'Suggestion: little or no exercise.'
     } else if (bmrcalc > 1926 && bmrcalc <= 2207) {
-      activitySug = 'Suggestion: Exercise 1-3 times/week.'
+      activityCalorie
+ = 'Suggestion: Exercise 1-3 times/week.'
     } else if (bmrcalc > 2207 && bmrcalc <= 2351) {
-      activitySug = 'Suggestion: Exercise 4-5 times/week.'
+      activityCalorie
+ = 'Suggestion: Exercise 4-5 times/week.'
     } else if (bmrcalc > 2351 && bmrcalc <= 2488) {
-      activitySug =
+      activityCalorie
+ =
         'Suggestion: Daily exercise or intense exercise 3-4 times/week.'
     } else if (bmrcalc > 2488 && bmrcalc <= 2796) {
-      activitySug = 'Suggestion: Intense exercise 6-7 times/week.'
+      activityCalorie
+ = 'Suggestion: Intense exercise 6-7 times/week.'
     } else if (bmrcalc > 2796) {
-      activitySug = 'Very intense exercise daily, or physical job.'
+      activityCalorie
+ = 'Very intense exercise daily, or physical job.'
     }
-    this.setState({ sugggestion: 'Suggestion: ' + activitySug })
+    this.setState({ sugggestion: 'Suggestion: ' + activityCalorie })
 
     this.setState({ error: '' })
     console.log(this.state.weight)
   }
 
-  calculateKCalories () {
-    let resultPAL
+  caloriesCalculate () {
+    let resultCalorie
     if (this.state.activity) {
-      resultPAL = (
-        <div className='resultPAL'>{this.state.bmr * this.state.activity}</div>
+      resultCalorie = (
+        <div className='resultCalorie'>{this.state.bmr * this.state.activity}</div>
       )
     }
-    this.setState({ pal: resultPAL })
+    this.setState({ pal: resultCalorie })
   }
 
   //BMR Calculation (imperial )
@@ -92,14 +98,14 @@ class bmr extends Component {
       resultBMR = <div className='result'> {this.state.bmr}</div>
     }
 
-    let resultSug
+    let sugResult
     if (this.state.sugggestion) {
-      resultSug = <div className='resultSug'>{this.state.sugggestion}</div>
+      sugResult = <div className='sugResult'>{this.state.sugggestion}</div>
     }
 
-    let resultPAL
+    let resultCalorie
     if (this.state.pal) {
-      resultPAL = <div className='resultSug'>{this.state.pal}</div>
+      resultCalorie = <div className='sugResult'>{this.state.pal}</div>
     }
 
     return (
@@ -177,11 +183,13 @@ class bmr extends Component {
               max='120'
             />
           </div>
-          <button type='button' onClick={() => this.calculationBMR()}>
+          <button type='button' 
+          classname = 'buttonstyle'
+          onClick={() => this.calculationBMR()}>
             CalculateBMR
           </button>
           {resultBMR}
-          {resultSug}
+          {sugResult}
           <div className='workout'>
             <div className='inputwrap'>
               <label className='label'>Workout in a Week</label>
@@ -210,11 +218,13 @@ class bmr extends Component {
                 </option>
               </select>
             </div>
-            <button type='button' onClick={() => this.calculateKCalories()}>
+            <button type='button' 
+            onClick={() => this.caloriesCalculate()}
+            classname = 'buttonstyle'>
               Calculate Calories
             </button>
           </div>
-          <div className='calorie'>{resultPAL}</div>
+          <div className='calorie'>{resultCalorie}</div>
         </div>
       </div>
     )

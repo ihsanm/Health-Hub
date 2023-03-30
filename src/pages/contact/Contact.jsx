@@ -10,7 +10,7 @@ const Contact = () => {
 	return (
 		<>
 			<Header title="Get In Touch" image={HeaderImage}>
-				Eu proident sit culpa laborum ad. Eu proident sit culpa laborum ad.
+				
 			</Header>
 
 			<section className="contact">
@@ -24,14 +24,14 @@ const Contact = () => {
 							<MdEmail />
 						</a>
 						<a
-							href="https://www.facebook.com/aarti.maherchandani/"
+							href="https://www.facebook.com/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
 							<BsMessenger />
 						</a>
 						<a
-							href="https://www.linkedin.com/in/aartimeherchandani/"
+							href="https://www.linkedin.com/in/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
