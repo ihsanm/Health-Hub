@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Project's Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Health Hub Fitness App
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Description](#description) 
+* [License](#license)
+* [Contributing](#contributing)
+* [Test](#test)
+* [Features](#features)
+* [Screenshot](#screenshot)
+* [Tech-Stack](#tech-stack)
+* [Links](#links)
+* [Authors](#authors)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Health Hub is a React App designed to provide users with a range of health and fitness tools. With Health Hub, users can check their BMI to see if they're a healthy weight, access exercise recommendations for specific muscle groups, and get detailed nutrition information for the food they're eating. 
 
-### `npm run build`
+Additionally, users can use the calorie calculator to track how many calories they're burning during workouts and physical activities. With its user-friendly interface and comprehensive features, Health Hub is an essential tool for anyone looking to stay healthy and fit. Start using Health Hub today to achieve your health and fitness goals!
+     
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+None
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Users can contact the repo's owner for more information.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Test
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+N/A
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+- Image Generator
+- Calorie Calculator
+- Nutrition Calculator
+- BMI Calculator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshot
 
-### Analyzing the Bundle Size
+![movie-search-screenshot]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tech-Stack
 
-### Making a Progressive Web App
+- React.js
+- Node.js
+- JavaScript 
+- HTML
+- CSS
+- React-Bootstrap
+- Rapid API
+- API Ninjas
+- Canva
+- GET
+- Netlify
+- Git Hub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Links to the deployed application and the GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Live Site URL:
+- Project URL: 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
+- Aarti Meharchandani
+- Rehman Abdul
+- Ihsan Mahmood
+- Sandra Guerra
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Copyright
+
+© 2023 
