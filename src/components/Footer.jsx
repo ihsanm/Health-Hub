@@ -56,7 +56,7 @@ const Footer = () => {
 					<Link to="/plans">BMI Calculator</Link>
 					<Link to="/trainers">Calorie Calculator</Link>
 					<Link to="/gallery">Nutrition</Link>
-					<Link to="/contact">Contact</Link>
+					
 				</article>
 				<article>
 					<h4>Insights</h4>
@@ -64,12 +64,11 @@ const Footer = () => {
 					<Link to="/s">Case Studies</Link>
 					<Link to="/s">Events</Link>
 					<Link to="/s">Communities</Link>
-					<Link to="/constact">FAQs</Link>
+					
 				</article>
 				<article>
 					<h4>Get In Touch</h4>
-					<Link to="/contact">Plans</Link>
-					<Link to="/s">Trainers</Link>
+					<Link to="/contact">Contact</Link>
 				</article>
 			</div>
 			<div className="footer__copyright">

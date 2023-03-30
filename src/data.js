@@ -9,19 +9,19 @@ export const links = [
     },
     {
         name: "Image generator",
-        path: '/about'
+        path: '/ExcerciseImages'
     },
     {
         name: "Calorie Calculator",
-        path: '/gallery'
+        path: '/CalorieCalu'
     },
     {
         name: "Nutrition",
-        path: '/plans'
+        path: '/NurtionCalcu'
     },
     {
         name: "BMI Calculator",
-        path: '/trainers'
+        path: '/BMICalulator'
     },
     {
         name: "Contact",

@@ -5,7 +5,7 @@ import HeaderImage from "../../images/Image-2.jpg";
 import Bodyparts from "../../components/bodyparts"
 
 
-const About = () => {
+const ExcerciseImages = () => {
 	return (
 		<>
 			<Header title="Excercise Image Generator" image={HeaderImage}>
@@ -22,4 +22,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default ExcerciseImages;

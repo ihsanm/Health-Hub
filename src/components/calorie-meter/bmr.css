@@ -102,7 +102,7 @@ select {
   font-size: 15px;
 }
 .error {
-  background: #bf2121;
+  background: hsl(0, 61%, 36%);
   color: white;
   text-align: center;
   padding: 4px 16px;
@@ -110,7 +110,7 @@ select {
   display: inline-block;
 }
 .result {
-  background: red;
+  background: hsl(0, 61%, 36%);
   color: white;
   text-align: center;
   padding: 10px 0px;
@@ -121,7 +121,7 @@ select {
   margin-top: 19px;
 }
 .calorie {
-  background: red;
+  background: hsl(0, 61%, 36%);
   color: white;
   text-align: center;
   padding: 10px 0px;
