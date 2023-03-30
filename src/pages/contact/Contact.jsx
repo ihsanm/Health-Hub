@@ -9,7 +9,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
 	return (
 		<>
-			<Header title="Gt In Touch" image={HeaderImage}>
+			<Header title="Get In Touch" image={HeaderImage}>
 				Eu proident sit culpa laborum ad. Eu proident sit culpa laborum ad.
 			</Header>
 

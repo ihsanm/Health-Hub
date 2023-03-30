@@ -19,11 +19,11 @@ function BmiCalculator() {
       <div>
         <label>Weight (in kg): </label>
         <input type="number" value={weight} onChange={(e) => setWeight(e.target.value)} />
-      </div>
+      </div><br></br>
       <div>
         <label>Height (in cm): </label>
         <input type="number" value={height} onChange={(e) => setHeight(e.target.value)} />
-      </div>
+      </div><br></br>
       <button onClick={calculateBmi}>Calculate BMI</button>
       <div>
         <label>BMI: </label>
