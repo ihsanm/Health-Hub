@@ -31,6 +31,7 @@ export default function CalorieSearchResults () {
     const [activities, setActivities] = useState([])
 
     return (
+      
       <div className='filter-container'>
         <button onClick={() => handleClick(1)}>Intensity Level 1</button>
         <button onClick={() => handleClick(2)}>Intensity Level 2</button>
@@ -56,7 +57,10 @@ export default function CalorieSearchResults () {
       )}
     </div>
   )
+
+
 }
+
 
 
 
