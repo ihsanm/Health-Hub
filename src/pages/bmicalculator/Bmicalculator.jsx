@@ -4,7 +4,7 @@ import HeaderImage from "../../images/header_bg_5.jpg";
 import "./bmicalculator.css";
 import BmiCalculator from "../../components/BmiCalculator";
 
-const Trainers = () => {
+const BMICalulator = () => {
 	return (
 		<>
 			<Header image={HeaderImage} title="BMI Calculator">
@@ -20,4 +20,4 @@ const Trainers = () => {
 	);
 };
 
-export default Trainers;
+export default BMICalulator;
