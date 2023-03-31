@@ -49,7 +49,7 @@ N/A
 
 ## Screenshot
 
-![movie-search-screenshot]
+
 
 ## Tech-Stack
 
@@ -67,10 +67,10 @@ N/A
 - Git Hub
 
 
-## Links to the deployed application and the GitHub repository
+## Links to the deployed application on Netlify and GitHub repository
 
-- Live Site URL:
-- Project URL: 
+- Live Site URL:https://healthhubbing.netlify.app/
+- Project URL: https://github.com/ihsanm/Health-Hub
 
 
 ## Authors
